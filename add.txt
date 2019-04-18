@@ -7,3 +7,6 @@ time to use - string(after meals,evening,nyt etc..)
 video link - string()
 ingredients - string(water,oil,etc..)
 steps - array(description + image)
+
+
+By Ravi
