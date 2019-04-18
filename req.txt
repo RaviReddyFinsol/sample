@@ -9,4 +9,4 @@ ingredients - string(water,oil,etc..)
 steps - array(description + image)
 
 
-By Ravi
+By Ravi Reddy
