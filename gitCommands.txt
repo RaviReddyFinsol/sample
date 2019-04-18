@@ -9,9 +9,9 @@
 6.git commit files in one go - git commit -a -m "<message>"
 7.add remote git - git remote add origin "<git remote path>"
 8.pull from remote git - git pull <branch name like - master> origin
-9.push to remote git - git push <branch name like - master> origin
-10.local git status - git status
-11.add new branch - git checkout -b[<branch name like - master>]
+9.push to remote git   - git push <branch name like - master> origin
+10.local git status    - git status
+11.add new branch      - git checkout -b[<branch name like - master>]
 12.change branch - git checkout <branch name like - master>
 13.remove from git local - git rm -r <fileName> (after removing from local we have to push to remote -> refer to command 9)
 14.git archive master –format=zip  –output= ../name-of-file.zip -> It stores all files and data in a zip file rather than the .git directory.
@@ -24,3 +24,7 @@ git stash
 git status
 And when you want to re-apply the changes you “stash”ed ,use the command below:
 git stash apply
+
+exit git log or git diff - type q
+
+--By Ravi Reddy
