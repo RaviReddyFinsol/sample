@@ -14,7 +14,11 @@
 11.add new branch      - git checkout -b[<branch name like - master>]
 12.change branch - git checkout <branch name like - master>
 13.remove from git local - git rm -r <fileName> (after removing from local we have to push to remote -> refer to command 9)
-14.git archive master –format=zip  –output= ../name-of-file.zip -> It stores all files and data in a zip file rather than the .git directory.
+14.git archive master –> format=zip  –output= ../name-of-file.zip -> It stores all files and data in a zip file rather than the .git directory.
+15.git remove origin(current folder) - git remote rm origin
+16.git change origin(current folder) - git remote set-url origin <git folder path>
+17.git origins -> git -v
+
 
 Stash uncommitted changes
 When we want to undo adding a feature or any kind of added data temporarily, we can “stash” them temporarily.
